@@ -2,7 +2,11 @@
 
 body:not(#home), .modal-body{
     background-color: #fbefdb;
-}   
+}
+
+body{
+    background-image:url(../pics/fő3.jpg)
+}
 
 /*Főoldal*/
 #home{
@@ -76,7 +80,7 @@ a:hover{
 }
 
 .footer{
-    background-color: #1f5b25;
+    background-color: blue;
     color: white;
 }
 
