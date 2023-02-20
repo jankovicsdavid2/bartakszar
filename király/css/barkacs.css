@@ -2,12 +2,48 @@
 
 body:not(#home), .modal-body{
     background-color: #fbefdb;
+    background-image: url(../pics/fő3.jpg);
+}
+div.background {
+    background: url(../pics/fő3.jpg) repeat;
+    border: 2px solid black;
+
 }
 
-
-
-.wrapper {
+div.anyád{
+    opacity: 1;
     color: black;
+}
+
+  table, th, td {
+    border: 1px solid black;
+    position: center;
+  }
+
+table{
+    max-width: 1000px;
+    min-width: 1000px;
+    max-height: 200px;
+    min-height: 200px;
+    position: center;
+}  
+
+div.wrapper {
+    margin: 100px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    max-width: 1350px;
+    min-width: 1350px;
+    max-height: 500px;
+    min-height: 500px;
+    opacity: 0.6;
+  }
+  
+.wrapper {
+    margin: 5%;
+    font-weight: bold;
+    font-style: normal black;
+    color: solid black;
     width: 1000px; /* 2 */
     max-width: 80%;
   }
@@ -91,6 +127,7 @@ a:hover{
 
 footer li{
     list-style-type: none;
+    position: fixed bottom;
 }
 
 footer li>img{
