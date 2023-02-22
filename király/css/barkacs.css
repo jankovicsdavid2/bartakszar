@@ -3,6 +3,10 @@
 body:not(#home), .modal-body{
     background-color: #fbefdb;
     background-image: url(../pics/fő3.jpg);
+    background-image: url(../pics/fő3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;;
 }
 div.background {
     background: url(../pics/fő3.jpg) repeat;
@@ -11,8 +15,9 @@ div.background {
 }
 
 div.anyád{
-    opacity: 1;
+    z-index: +1;
     color: black;
+    opacity: 1;
 }
 
   table, th, td {
@@ -30,13 +35,13 @@ table{
 
 div.wrapper {
     margin: 100px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.6);
     border: 1px solid black;
     max-width: 1350px;
     min-width: 1350px;
     max-height: 500px;
     min-height: 500px;
-    opacity: 0.6;
+    filter:alpha(opacity=60);
   }
   
 .wrapper {
@@ -47,6 +52,44 @@ div.wrapper {
     width: 1000px; /* 2 */
     max-width: 80%;
   }
+
+  div.wrapper2 {
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    max-width: 1350px;
+    min-width: 1350px;
+    max-height: 1600px;
+    min-height: 1600px;
+  }
+  
+.wrapper2 {
+    margin: 5%;
+    font-weight: bold;
+    font-style: normal black;
+    color: solid black;
+    width: 1350px; /* 2 */
+    max-width: 80%;
+}
+
+div.wrapper3 {
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    max-width: 1350px;
+    min-width: 1350px;
+    max-height: 900px;
+    min-height: 900px;
+  }
+  
+.wrapper3 {
+    margin: 5%;
+    font-weight: bold;
+    font-style: normal black;
+    color: solid black;
+    width: 1350px; /* 2 */
+    max-width: 80%;
+}
 
 /*Főoldal*/
 #home{
@@ -88,18 +131,18 @@ nav a:first-child img{
 
 h1{
     font-family: 'Fredericka the Great', cursive;
-    color: #1f5b25;
+    color: blue;
     text-align: center;
 }
 
 .card{
-    color: #1f5b25;
+    color: blue;
     background-color: #fff;
-    border: 1px solid #1f5b25;
+    border: 1px solid blue;
 }
 
 .card:hover{
-    box-shadow: 0px 0px 5px #1f5b25;
+    box-shadow: 0px 0px 5px blue;
 }
 
 h5{
@@ -141,7 +184,7 @@ footer li>img{
 
 .blog-img {
     border-radius: 4px;
-    border: 1px solid #1f5b25;
+    border: 1px solid blue;
 }
 
 p.szerzo {
@@ -149,12 +192,12 @@ p.szerzo {
 }
 
 .box{
-    border: 1px solid #1f5b25;
+    border: 1px solid blue;
 }
 
 .box h2 {
     font-size: 1.5rem;
-    background-color: #1f5b25;
+    background-color: blue;
     color: #fff;
     padding: .5rem;
 }
