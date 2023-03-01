@@ -90,6 +90,24 @@ div.wrapper3 {
     width: 1350px; /* 2 */
     max-width: 80%;
 }
+div.wrapper4 {
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    max-width: 1350px;
+    min-width: 1350px;
+    max-height: 500px;
+    min-height: 500px;
+  }
+  
+.wrapper4 {
+    margin: 5%;
+    font-weight: bold;
+    font-style: normal black;
+    color: solid black;
+    width: 135px; /* 2 */
+    max-width: 80%;
+}
 
 /*Főoldal*/
 #home{
