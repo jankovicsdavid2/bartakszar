@@ -75,24 +75,30 @@
         
       
 
-
-    <footer class="bg-success mt-5 border-top py-5 text-light">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h3 class="fw-bold text-light">Kapcsolat</h3>
-            <p class="my-3 fw-bold"><i class="bi bi-envelope"> </i>DIY barkácsáruház</p>
-            <p class="my-3 fw-bold"><i class="bi bi-at"></i> DIY@Barkácsáruház.hu</p>
-            <p class="my-3 fw-bold"><i class="bi bi-telephone-fill"></i> +36-1-555-555-55</p>
+    <div class="footer">
+      <footer class="container">
+          <div class="row">
+              <div class="col-sm-6 col-lg-4 offset-lg-1">
+                  <h2 class="mt-3">Elérhetőségek</h2>
+                  <ul>
+                      <li><img src="./pics/letter.svg" alt="">DIY barkácsbolt</li>
+                      <li><img src="./pics/email.svg" alt="">DIY@barkacsbolt.hu</li>
+                      <li><img src="./pics/telephone.svg" alt="">+36-1-555-55-55</li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                  <h2 class="mt-3">barkács Magazin</h2>
+                  <p>Iratkozzon fel a barkács magazinunkra!</p>
+                  <form>
+                      <div class="input-group mb-3">
+                          <input type="text" id="email" class="form-control" placeholder="E-mail
+                          " aria-label="E-mail" aria-describedby="button-addon2">
+                          <div class="input-group-append">
+                              <button onclick="feliratkozas()" class="btn btn-success" type="button" id="button-addon2">Feliratkozom</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
           </div>
-          <div class="col">
-            <h3 class="fw-bold text-light">Felszerelésmagazin</h3>
-            <p class="my-1 fw-bold">Iratkozzon fel a barkácsáruházunkra!</p>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Feliratkozom</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
+   </div>
